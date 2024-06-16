@@ -19,4 +19,3 @@ console.log(big)//we will lose the precision of the big integers
 console.log(bign)
 //console.log(bign+2)//This would lead to an error as we are combining normal int with bigint
 console.log(bign+2n)
-
