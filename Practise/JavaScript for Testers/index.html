@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Practise Page</title>
+
+</head>
+
+<body>
+    <h1 id ="heading">Welcome to the Practise Page</h1>
+    <p id = "p1">This is a simple HTML page for practising purposes.</p>
+    <button onclick="alert('Button Clicked!')">Click Me</button>
+    <button id="dateButton">Show Date</button>
+    <p id="displayDate"></p>
+</body>
+
+<script>
+    document.writeln("<h1>This is written using JavaScript!</h1>");
+    document.getElementById("heading").style.color = "blue";
+    document.getElementById("p1").style.fontSize = "20px";
+    //Here we are writing an embedded JavaScript code to change the style of HTML elements.
+    document.getElementById("dateButton").onclick = displayDate;
+    
+    function displayDate() {
+        document.getElementById("displayDate").innerHTML = Date();
+    };
+    console.log("Practise Page Loaded");//This will log a message in the browser console when the page is loaded, but won't be visible on the page itself.
+</script>
+
+</html>
