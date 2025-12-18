@@ -21,7 +21,7 @@ console.log(username)
 console.log(username+" "+username2+' says '+ qoutes)
 
 let r = 7
-// const epislon // We must initialize a constant
+// const epsilon // We must initialize a constant
 const pi = 3.14 // This will make the pi constant and you cannot alter its value later in code
 let area = pi * r * r
 //pi = 3.14422 - This will throw an error as it is a constant we cannot do assignment
