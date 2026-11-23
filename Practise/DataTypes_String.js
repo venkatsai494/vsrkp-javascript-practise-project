@@ -12,8 +12,10 @@ console.log(condition)
 console.log(typeof srssd)//as this variable is not defined or declared anywhere this would be undefined
 
 let abcd
+let abc = undefined
 console.log(abcd)
 console.log(typeof abcd)// both the type and the value would be undefined when you just declared the variable
+console.log(typeof abc)
 
 let x = null
 console.log(typeof x)//null is considered as an object
